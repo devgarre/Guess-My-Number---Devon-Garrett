@@ -12,7 +12,7 @@ int main()
 {
 	srand(static_cast<unsigned int>(time(0))); //seeds RNG
 
-	int secretNumber = rand() % 100 + 1; //Random number between 1 and 100
+	int secretNumber = rand() % 64 + 1; //Random number between 1 and 64
 	int tries = 0;
 	int guess;
 
